@@ -22,7 +22,7 @@ export default function Header() {
           <input type="text" className="ml-4 w-64 h-6 bg-gray-200 rounded w-[50vw] h-7"></input>
           {/* Sign In */}
           <div>
-            <Button variant="ghost" className="text-gray-600">
+            <Button navigateTo="/login-frame/" variant="ghost" className="text-gray-600">
               SIGN IN
             </Button>
           </div>
